@@ -1,0 +1,5 @@
+# Ignore the tkdnd2 folder
+tkdnd2/
+
+# Ignore all XML files
+*.xml
