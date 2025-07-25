@@ -1,15 +1,3 @@
----
-post_title: TrueCurve Toolbox
-author1: Andre (Mzandre2)
-post_slug: truecurve-toolbox
-microsoft_alias: mzandre2
-featured_image: ''
-categories: [GIS, Geometry Processing, Python, ArcGIS, QGIS]
-tags: [geometry, linearization, GIS, ArcGIS, QGIS, Python]
-ai_note: 'This README was generated with the help of AI.'
-summary: 'A cross-platform toolset for converting complex curved geometries to linear forms, ensuring compatibility across GIS workflows.'
-post_date: 2025-07-25
----
 
 ## TrueCurve Toolbox
 
@@ -102,4 +90,12 @@ Or double-click `Remove True Curves.vbs` to launch the GUI.
 - Integrates with ArcGIS Pro and QGIS
 - Customizable segmenting tolerance
 
+---
+
+---
+post_title: TrueCurve Toolbox
+categories: [GIS, Geometry Processing, Python, ArcGIS, QGIS]
+tags: [geometry, linearization, GIS, ArcGIS, QGIS, Python]
+ai_note: 'This README was generated with the help of AI.'
+post_date: 2025-07-25
 ---
