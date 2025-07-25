@@ -75,7 +75,7 @@ Or double-click `Remove True Curves.vbs` to launch the GUI.
 - `ArcGIS_curves.pyt` — ArcGIS Python toolbox
 - `QGIS_Remove_curved_geometry.py` — QGIS processing script
 - `Remove True Curves.vbs` — GUI launcher
-- `tkdnd2/` — Drag-and-drop support for GUI
+- `tkdnd2/` — Auto generated folder coantaining .tcl files for Drag-and-drop support in GUI
 - Documentation and SOP files
 
 ---
