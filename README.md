@@ -1,17 +1,9 @@
-
 ## TrueCurve Toolbox
 
 A cross-platform toolset for converting complex curved geometries (e.g., CircularString, CurvePolygon, MultiCurve, MultiSurface) into linear representations (LineString, Polygon, etc.), ensuring compatibility with a wide range of GIS software and workflows.
 
 ---
-
-## Technology Stack
-
-- **Python** (Standalone script, QGIS, ArcGIS)
-- **ArcGIS Pro** (Python Toolbox)
-- **QGIS** (Processing Script)
-- **OGR/GDAL** (Geometry operations)
-- **Supported Formats:**
+## **Supported Formats:**
   - File Geodatabase (.gdb)
   - GeoPackage (.gpkg)
   - Shapefile (.shp)
@@ -52,6 +44,13 @@ All modules share the same core logic: detecting, segmentizing, and linearizing 
 ```sh
 python True_Curve.py --input <input_path> --output <output_path> --segmenting_tolerance <tolerance>
 ```
+| Argument                | Required | Description                                                                                      |
+|-------------------------|----------|--------------------------------------------------------------------------------------------------|
+| `--input <input_path>`  | Yes      | Path to the input file or folder.                                                                |
+| `--output <output_path>`| No       | Path for the output file or folder. If not provided, the output will be saved in the same directory as the input file. A suffix will be appended to the filename. |
+| `--segmentizing_tolerance <tolerance>` | No | Tolerance for segmentizing curves. Default is 2m if not specified only applies if linearization fails.     |
+
+
 
 **GUI Mode:**
 ```sh
@@ -92,10 +91,13 @@ Or double-click `Remove True Curves.vbs` to launch the GUI.
 
 ---
 
----
-post_title: TrueCurve Toolbox
-categories: [GIS, Geometry Processing, Python, ArcGIS, QGIS]
-tags: [geometry, linearization, GIS, ArcGIS, QGIS, Python]
-ai_note: 'This README was generated with the help of AI.'
-post_date: 2025-07-25
+> post_title: TrueCurve Toolbox
+
+> categories: [GIS, Geometry Processing, Python, ArcGIS, QGIS]
+
+> tags: [geometry, linearization, GIS, ArcGIS, QGIS, Python]
+
+> ai_note: 'This README was generated with the help of AI.'
+
+> post_date: 2025-07-25
 ---
